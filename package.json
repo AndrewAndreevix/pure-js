@@ -1,0 +1,23 @@
+{
+  "name": "constructor",
+  "version": "1.0.0",
+  "description": "javascript pure aplication",
+  "main":  "src/index.js",
+  "targets": {
+          "main":false
+  },
+    
+  "scripts": {
+    "serve": "parcel ./src/index.html -p 4300 --open",
+    "build": "parcel build ./src/index.html"
+  },
+  "keywords": [
+    "js",
+    "javascript"
+  ],
+  "author": "Andriy <shmatko.andriy03@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.0.1"
+  }
+}
